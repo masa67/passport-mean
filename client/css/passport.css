@@ -1,0 +1,42 @@
+
+.button-login {
+    margin-top: 10px;
+}
+
+.invalid-cred {
+    margin-bottom: 15px;
+}
+
+.login {
+    margin-top: 10px;
+}
+
+.note {
+    background-color: #5cb85c;;
+    border: 1px solid #3e8f3e;
+    border-radius: 6px;
+    color: white;
+    margin-top: 10px;
+    padding: 20px;
+}
+
+.pp-alert {
+    color: red;
+}
+
+.register {
+    margin-top: 10px;
+}
+
+.some-button {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.some-buttons {
+    margin-top: 20px;
+}
+
+.submit-login-form {
+    margin-bottom: 10px;
+}

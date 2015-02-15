@@ -1,0 +1,24 @@
+{
+    "name": "password-mean",
+    "version": "1.0.0",
+    "description": "A demo of social media logins.",
+    "moduleType": [
+        "node"
+    ],
+    "authors": [
+        "Matti Sangi"
+    ],
+    "license": "MIT",
+    "private": true,
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components",
+        "test",
+        "tests"
+    ],
+    "dependencies": {
+        "angular-spinner": "0.6.1",
+        "angularjs-utilities": "git://github.com/realcrowd/angularjs-utilities.git#~0.0.9"
+    }
+}

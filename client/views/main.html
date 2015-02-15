@@ -1,0 +1,46 @@
+<div class="navbar navbar-default navbar-inverse">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="/">Passport Demo</a>
+        </div>
+        <div class="">
+            <ul class="nav navbar-nav navbar-right">
+                <li ng-show="!username">
+                    <a href="/login">Login</a>
+                </li>
+                <li ng-show="username">
+                    <a href="">{{username}}</a>
+                </li>
+                <li ng-show="username">
+                    <a href="" ng-click="clickLogout()">Logout</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div ng-show="username" class="row">
+        <h1>You are logged in:</h1>
+        <table class="table table-striped table-condensed">
+            <tr>
+                <td>Username</td>
+                <td>{{username}}</td>
+            </tr>
+            <tr>
+                <td>Name</td>
+                <td>{{name}}</td>
+            </tr>
+            <tr>
+                <td>E-mail</td>
+                <td>
+                    <span ng-if="email">{{email}}</span>
+                    <span ng-if="!email">-</span>
+                </td>
+            </tr>
+            <tr>
+                <td>Account Type</td>
+                <td>{{accountType}}</td>
+            </tr>
+        </table>
+    </div>
+</div>
